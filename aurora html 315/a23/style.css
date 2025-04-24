@@ -1,0 +1,135 @@
+/* tranform */
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: translate(150px, 80px);
+} */
+
+/* rotate */
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+ } */
+
+/* scale */
+/* .box{
+    width: 100px;
+    height: 100px;background-color: purple;
+    transform: scale(10.10);
+  } */
+
+/* skew */
+/* .box{
+    width: 100px;
+    height: 100px; rotateX(150deg)
+    background-color: green;
+    transform: skew(20deg,10deg);
+  } */
+/* matrix */
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    transform: matrix(1.5,50,100,1.5,50,100);
+   } */
+
+
+
+
+/* detyre */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.box {
+    width: 200px;
+    height: 300px;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.box:hover {
+    background-color: rgb(201, 189, 189);
+    transform: skew(20deg, 10deg);
+}
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+/* '''' */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+.button{
+    background-color: black;
+    color: wheat;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: burlywood;
+    transform: scale(1.4);
+    border-radius: 100%;
+ 
+}
+
+img{
+    width: 70px;
+    border-radius: 40px;
+} */

@@ -1,0 +1,60 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+.header{
+    grid-column: 1/-1;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+.box1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+.box2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+.box3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+.sidebar{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+.main{
+    grid-column: 1/4;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    grid-column: 1/-1;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,126 @@
+/* img{
+    opacity:0.5;
+}
+
+img:hover{
+    opacity:1;
+    cursor:pointer;} */
+
+
+/* detyre */
+
+/* body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+        margin: 0;
+        flex-wrap: wrap;   
+    }
+ .container {
+        display: flex;
+        gap: 20px;
+    }
+ .container img {
+        width: 200px;
+        height: auto;
+        opacity: 0.3;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .container img:hover {
+        opacity: 1;
+    } */
+/* dropdown */
+/* .dropbtn {
+    background-color: #34495e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
+     z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} */
+/* detyre */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2b2b2b;
+}
+nav {
+    background-color: #28a745;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.menu li {
+    position: relative;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Nën-menyja */
+
+.submenu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #28a745;
+    display: none;
+    width: 100%;
+    border-radius: 5px;
+}
+.submenu li {
+    width: 100%;
+}
+.submenu a {
+    padding: 10px;
+    display: block;
+}
+/* Shfaq nën-meny kur vendoset miu mbi "SKILLS" */
+
+.dropdown:hover .submenu {
+    display: block;
+}
